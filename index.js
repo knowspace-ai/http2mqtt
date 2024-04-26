@@ -49,13 +49,13 @@ async function controller(request, response) {
   const topic = `${topicBase}${request.path}`
   const body = await request.json()
 
-  console.log('-'.repeat(20))
+  // console.log('-'.repeat(20))
 
-  console.dir({
-    headers,
-    topic,
-    body
-  })
+  // console.dir({
+  //   headers,
+  //   topic,
+  //   body
+  // })
 
   let message = body || null
   if (typeof message === 'object') {
