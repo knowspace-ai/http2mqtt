@@ -1,0 +1,29 @@
+{
+  "name": "http2mqtt",
+  "version": "0.0.1",
+  "description": "simple forwarder to capture webhooks and forward to MQTT broker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knowspace-ai/http2mqtt.git"
+  },
+  "keywords": [
+    "webhook",
+    "mqtt"
+  ],
+  "author": "Sherif Abushadi (sherif@amgando.org)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knowspace-ai/http2mqtt/issues"
+  },
+  "homepage": "https://github.com/knowspace-ai/http2mqtt#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "hyper-express": "^6.15.2",
+    "mqtt": "^5.5.3"
+  }
+}
